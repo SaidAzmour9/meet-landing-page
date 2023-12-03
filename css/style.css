@@ -42,13 +42,29 @@ header{
     border: none;
     border-radius: 10px;
     height: 40px;
+    cursor: pointer;
 }
+
 .hero-title button.first{
     width: 150px;
     background-color: rgb(43, 226, 113);
 }
 .hero-title button.last{
     width: 110px;
+    background-color: rgb(43, 104, 226);
+}
+.hero-title button.first:hover{
+    width: 170px;
+    height: 46px;
+    opacity: 0.8;
+    transition: all 0.3s;
+    background-color: rgb(43, 226, 113);
+}
+.hero-title button.last:hover{
+    width: 130px;
+    height: 46px;
+    opacity: 0.8;
+    transition: all 0.3s;
     background-color: rgb(43, 104, 226);
 }
 .about{
@@ -157,5 +173,13 @@ footer .about-number{
     border-radius: 10px;
     height: 40px;
     width: 140px;
+    cursor: pointer;
     background-color: rgb(116, 43, 226);
+}
+
+.footer-content button:hover{
+    width: 160px;
+    height: 46px;
+    opacity: 0.8;
+    transition: all 0.3s;
 }
