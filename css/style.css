@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,900;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+header{
+    padding: 15px 0;
+    text-align: center;
+}
+.hero{
+    margin: 90px 0;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.hero .hero-img1 img{
+    padding: 0;
+    width: 100%;
+}
+.hero .hero-title{
+    text-align: center;
+    padding: 20px;
+}
+.hero-title h1{
+    text-transform: capitalize;
+    font-weight: 800;
+    margin: 10px;
+    font-size: 3em;
+}
+.hero-title p{
+    font-weight: 300;
+    margin: 10px;
+    color: gray;
+}
+.hero-title button{
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+}
+.hero-title button.first{
+    width: 150px;
+    background-color: rgb(43, 226, 113);
+}
+.hero-title button.last{
+    width: 110px;
+    background-color: rgb(43, 104, 226);
+}
+.about{
+    margin: 90px 0;
+    text-align: center;
+}
+.about-number {
+    text-align: center;
+    margin: 0px 0 50px 0;
+}
+.about-number div{
+    margin: auto;
+    background-color:rgb(197, 197, 197);
+    border-radius: 5px;
+    width: 2px;
+    height: 60px;
+}
+.about-number h2{
+    display: inline;
+    color: gray;
+    border: rgb(197, 197, 197) 1px solid;
+    border-radius: 100%;
+    font-weight: 600;
+    font-size: small;
+    padding: 7px 10px;
+    background-color: #fff;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.about-img{
+    display: flex;
+    justify-content: space-between;
+}
+.about-img img{
+    width: 23%;
+    border-radius: 5px;
+}
+
+.about-info{
+    width: 420px;
+    margin: 50px auto;
+}
+
+.about-info span{
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: gray;
+    
+}
+
+.about-info h3{
+    font-weight: 700;
+    font-size: 1.8em;
+    margin: 5px 15px;
+    padding: 10px;
+}
+.about-info p{
+    color: gray;
+    font-weight: 300;
+    
+}
+footer{
+    position: absolute;
+    width: 100%;
+}
+footer .about-number{
+    position: relative;
+    bottom: -57px;
+}
+.footer-all{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    height: 200px;
+    background-image: url(../assets/desktop/image-footer.jpg);
+    background-size: cover;
+    background-color: hsl(192,37%,48%);
+    background-position: center;
+    background-blend-mode: soft-light;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-content h4{
+    font-size: 1.8em;
+    text-transform: capitalize;
+}
+.footer-content p{
+    font-size: 1em;
+    padding: 10px;
+}
+.footer-content button{
+    margin-left: 30px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 140px;
+    background-color: rgb(116, 43, 226);
+}
